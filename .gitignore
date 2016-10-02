@@ -26,3 +26,5 @@ build.tgz
 # Ignore Bower components
 /components
 /node_modules
+
+.netlify
