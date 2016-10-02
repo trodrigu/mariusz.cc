@@ -13,12 +13,12 @@
     float: left;
 
     a {
-      @include image-2x("/images/logo.png", "/images/logo@2x.png", 48px, 48px);
+      @include image-2x("/images/sick_logo.svg", "/images/logo@2x.svg", 62px, 62px);
 
       display: block;
       margin: 0 auto;
-      width: 48px;
-      height: 48px;
+      width: 62px;
+      height: 62px;
       text-indent: -999em;
     }
   }
