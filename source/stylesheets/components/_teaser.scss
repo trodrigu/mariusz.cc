@@ -32,6 +32,11 @@ $teaser-bg-color: $off-white;
     }
   }
 
+  p {
+      font-size: .8em;
+      text-align: center;
+  }
+
   .design-and-build {
     font-size: 1.5em;
     display: block;
@@ -39,9 +44,11 @@ $teaser-bg-color: $off-white;
     line-height: 1;
     letter-spacing: -.05em;
     padding-bottom: .25em;
+    margin-top: 2em;
 
     @media only screen and (min-width: 40em) { 
       font-size: 2em;
+
     }
   }
 
@@ -50,7 +57,8 @@ $teaser-bg-color: $off-white;
   }
 
   .actions {
-    margin-top: 3em;
+    margin-top: 6em;
+    text-align: center;
   }
 
   .or {

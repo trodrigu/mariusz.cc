@@ -1,4 +1,8 @@
 .dribbble {
+  background: url(/images/travel_bug_model_1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   margin-top: $base-font-size;
   padding-bottom: 50px;
   display: flex;
@@ -12,6 +16,9 @@
 
   header {
     @extend .section-header;
+    h2 {
+      color: #ffffff;
+    }
   }
 
   .shots {
