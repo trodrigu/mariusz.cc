@@ -10,13 +10,23 @@
   justify-content: center;
 
   @media only screen and (min-width: $bp-large) {
-    height: 100vh;
+    //height: 100vh;
+    height: 1080px;
     min-height: 600px;
   }
 
-  header {
+  section {
+
+    #travelbug {
+      color: #ffffff;
+    }
+
     @extend .section-header;
+    a {
+      color: #ffffff;
+    }
     h2 {
+      height: 45px;
       color: #ffffff;
     }
   }
@@ -52,3 +62,4 @@
     margin: 0;
   }
 }
+

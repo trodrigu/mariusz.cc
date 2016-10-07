@@ -1,19 +1,19 @@
 .about {
   transition: background .25s $easing;
   background-color: #111F2C;
-  background-position: bottom right;
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: -25em;
   color: #fff;
   padding: ms(4);
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
 
   @media only screen and (min-width: 800px) {
     background-image: url("/images/ice_ashley.jpg");
     background-attachment: fixed;
-    background-position-y: -113em;
-    background-position-x: -98em;
   }
 
   @media only screen and (min-width: $bp-large) {
@@ -23,6 +23,25 @@
 
   .content {
     @include wrapper;
+    width: 59em;
+
+    .video-card-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: left;
+      border-radius: 3em;
+
+      .demo-card-image.mdl-card {
+        width: 341px;
+        height: 311px;
+        border-radius: 3em;
+
+        p {
+          color: #333;
+        }
+      }
+    }
   }
 
   header {
@@ -49,4 +68,6 @@
       @include span-columns(6);
     }
   }
+
+
 }
