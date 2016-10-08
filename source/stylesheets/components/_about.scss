@@ -5,15 +5,15 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position-y: -25em;
   color: #fff;
   padding: ms(4);
   display: flex;
   align-items: left;
 
   @media only screen and (min-width: 800px) {
-    background-image: url("/images/ice_ashley.jpg");
+    background-image: url("/images/ashley_mountain.jpg");
     background-attachment: fixed;
+    justify-content: left;
   }
 
   @media only screen and (min-width: $bp-large) {
@@ -26,15 +26,16 @@
     width: 59em;
 
     .video-card-container {
+      opacity: 0.8;
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
-      justify-content: left;
+      justify-content: center;
       border-radius: 3em;
 
       .demo-card-image.mdl-card {
-        width: 500px;
-        height: 400px;
+        width: 403px;
+        height: 329px;
         border-radius: 3em;
 
         .description {
@@ -43,6 +44,7 @@
         }
 
         p {
+          font-size: 1.0em;
           color: #333;
         }
       }
