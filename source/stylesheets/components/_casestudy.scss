@@ -5,19 +5,33 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 4000px;
+
+  .page {
+    height: 4000px;
+  }
 
   @media only screen and (min-width: $bp-large) {
-    height: 3000px;
+    height: 3200px;
     //height: 100vh;
     min-height: 600px;
+
+    .page {
+      height: 3200px;
+    }
   }
 
   header {
     @extend .section-header;
   }
 
-  .page {
-    height: 3000px;
+  p {
+    a {
+      
+      img {
+        width: 19em;
+      }
+    }
   }
 
   .video-card-container {
