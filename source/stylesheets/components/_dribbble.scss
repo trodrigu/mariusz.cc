@@ -14,8 +14,17 @@
     height: 1080px;
     min-height: 600px;
   }
+  
+  .page {
+    height: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+  }
 
   section {
+    max-width: 50%;
 
     #travelbug {
       color: #ffffff;
@@ -28,6 +37,7 @@
     h2 {
       height: 45px;
       color: #ffffff;
+      font-size: 3em;
     }
   }
 
