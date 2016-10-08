@@ -13,7 +13,6 @@
   @media only screen and (min-width: 800px) {
     background-image: url("/images/ashley_mountain.jpg");
     background-attachment: fixed;
-    justify-content: left;
   }
 
   @media only screen and (min-width: $bp-large) {
@@ -30,7 +29,7 @@
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
-      justify-content: center;
+      justify-content: left;
       border-radius: 3em;
 
       .demo-card-image.mdl-card {
