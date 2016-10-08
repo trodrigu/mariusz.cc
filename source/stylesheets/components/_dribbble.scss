@@ -10,9 +10,9 @@
   justify-content: center;
 
   @media only screen and (min-width: $bp-large) {
-    //height: 100vh;
     height: 1080px;
     min-height: 600px;
+    font-size: 3em;
   }
   
   .page {
@@ -37,7 +37,7 @@
     h2 {
       height: 45px;
       color: #ffffff;
-      font-size: 3em;
+      font-size: 2em;
     }
   }
 
