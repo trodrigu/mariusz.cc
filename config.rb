@@ -47,17 +47,17 @@
 # end
 
 activate :blog do |blog|
-  blog.prefix = "work"
+  blog.prefix = 'work'
 end
 
 activate :external_pipeline,
-  name: :gulp,
-  command: build? ? 'npm run production' : 'npm run gulp',
-  source: ".tmp"
+         name:    :gulp,
+         command: build? ? 'npm run production' : 'npm run gulp',
+         source:  '.tmp'
 
 helpers do
   def page_class
-    current_resource.url.sub('.html','').gsub('/','-')
+    current_resource.url.sub('.html', '').tr('/', '-')
   end
 end
 
@@ -67,10 +67,10 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
-set :markdown_engine, :redcarpet
-set :markdown,  :fenced_code_blocks => true,
-                :autolink => true, 
-                :smartypants => true
+set :markdown_engine, :kramdown
+set :markdown,  fenced_code_blocks: true,
+                autolink: true,
+                smartypants: true
 
 # Build-specific configuration
 configure :build do
@@ -94,5 +94,3 @@ configure :build do
   # Or use a different image path
   # set :http_path, "/Content/images/"
 end
-
-
