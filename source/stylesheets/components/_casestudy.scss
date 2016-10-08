@@ -1,18 +1,23 @@
 .casestudy {
   margin-top: $base-font-size;
   padding-bottom: 50px;
+  padding-top: 1em;
   display: flex;
   align-items: center;
   justify-content: center;
 
   @media only screen and (min-width: $bp-large) {
-    height: 980px;
+    height: 3000px;
     //height: 100vh;
     min-height: 600px;
   }
 
   header {
     @extend .section-header;
+  }
+
+  .page {
+    height: 3000px;
   }
 
   .video-card-container {
