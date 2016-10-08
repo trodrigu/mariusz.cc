@@ -44,10 +44,11 @@ $teaser-bg-color: $off-white;
     line-height: 1;
     letter-spacing: -.05em;
     padding-bottom: .25em;
-    margin-top: 2em;
+    margin-top: 5em;
 
     @media only screen and (min-width: 40em) { 
       font-size: 2em;
+      margin-top: 4em;
 
     }
   }
