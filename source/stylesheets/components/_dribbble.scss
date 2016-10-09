@@ -3,7 +3,6 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top: $base-font-size;
   padding-bottom: 50px;
   display: flex;
   align-items: center;
@@ -20,11 +19,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
   }
 
   section {
-    max-width: 50%;
 
     #travelbug {
       color: #ffffff;

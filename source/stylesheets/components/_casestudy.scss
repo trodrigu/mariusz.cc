@@ -5,10 +5,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 4000px;
+  height: 100%;
 
   .page {
-    height: 4000px;
+    height: 100%;
   }
 
   @media only screen and (min-width: $bp-large) {
