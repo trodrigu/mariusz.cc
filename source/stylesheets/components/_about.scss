@@ -8,7 +8,6 @@
   color: #fff;
   padding: ms(4);
   display: flex;
-  align-items: left;
 
   @media only screen and (min-width: 800px) {
     background-image: url("/images/ashley_mountain.jpg");
@@ -43,7 +42,7 @@
       justify-content: center;
 
       @media only screen and (min-width: 800px) {
-        justify-content: left;
+        justify-content: flex-start;
       }
 
       .demo-card-image.mdl-card {
