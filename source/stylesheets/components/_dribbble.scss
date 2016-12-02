@@ -9,13 +9,13 @@
   justify-content: center;
 
   @media only screen and (min-width: $bp-large) {
-    height: 1080px;
+    height: 600px;
     min-height: 600px;
     font-size: 3em;
   }
   
   .page {
-    height: 1080px;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -4,9 +4,16 @@
   left: 0;
   width: 100%;
   z-index: 99;
+  background-color: white;
 
   @media only screen and (min-width: $bp-medium) {
     position: fixed;
+  }
+
+  img {
+    margin-top: 20px;
+    width: 62px;
+    height: 62px;
   }
 
   h1 {
